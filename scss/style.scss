@@ -19,10 +19,20 @@ a {
   text-decoration: none;
 }
 
+footer {
+  text-align: center;
+  font-style: italic;
+  background-color: lightgreen;
+
+  span {
+    margin: 0.6rem auto;
+    padding: 0.7rem;
+  }
+}
 // custom classes
 .showcase {
   @include set-bg-text-color($primary-color);
-  height: 600px;
+  height: 560px;
 
   nav {
     display: flex;
