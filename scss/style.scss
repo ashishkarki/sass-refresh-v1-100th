@@ -52,7 +52,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    // overflow-x: hidden;
+    margin-top: 30px;
 
     img {
       width: 50%;
@@ -64,3 +64,5 @@ a {
     }
   }
 }
+
+@import 'mobile';
