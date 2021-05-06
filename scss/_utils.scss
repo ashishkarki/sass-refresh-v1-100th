@@ -19,3 +19,23 @@
   background-color: $color;
   color: set-text-color($color);
 }
+
+// margin and padding classes using LOOP
+$spaceamounts: (1, 2, 3, 4, 5); // list in sass
+
+@each $space in $spaceamounts {
+  .m-#{$space} {
+    margin: #{$space}rem;
+  }
+  .my-#{$space} {
+    margin: #{$space}rem 0;
+  }
+
+  .p-#{$space} {
+    padding: #{$space}rem;
+  }
+
+  .py-#{$space} {
+    padding: #{$space}rem 0;
+  }
+}
